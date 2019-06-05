@@ -1,0 +1,16 @@
+*{
+    border: 1px solid black;
+}
+.container{
+    width: 100%;
+    background-color: blue;
+}
+.header{
+    display: inline-block;
+    background-color: red;
+    width: 100%;
+}
+    .header h1{
+        vertical-align: top;
+        display: inline-block;
+    }

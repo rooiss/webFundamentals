@@ -1,0 +1,8 @@
+	Starting off the assignment using the install command was the most straight forward.
+    pip install, installs a package when the virtual environment is activated. 
+    pip list seemed to just list all of the installed packages, but only worked when 
+    the virtualenv was activated. Deactivate just deactivated the virtualenv. 
+    pip3 list showed all installed packages even when the virtualenv was deactivated. 
+    The difference between freeze and list was the formatting of the lists were 
+    different, as in formatting for freeze was organized alphabetically where list was 
+    not.

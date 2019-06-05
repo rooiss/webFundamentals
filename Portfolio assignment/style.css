@@ -1,0 +1,233 @@
+/* *{
+    outline: 1px dotted red;
+} */
+div.container{
+    width: 970px;
+    height: 1029px;
+}
+div.top{
+    height: 64px;
+    background-color: #f7f7f7;
+}
+    div.JayneDoe{
+        width: 315px; 
+        height: 64px;
+        display: inline-block;
+        vertical-align: top;
+        padding: 5px 0px 10px 25px;
+        font-size: 12px;
+    }
+    div.infotxt{
+        text-align: right;
+        width: 600px;
+        display: inline-block;
+        font-size: 9.0px;
+        font-family: "Arial";
+        padding: 10px 0px;
+        vertical-align: top;
+    }
+div.background{
+    background-image: radial-gradient(#6d5964,#46343b,#190a0f);
+    height: 895px;
+}
+div.about{
+    height: 306px;
+    width: 970px;
+}
+    div.image{
+        height: 275px;
+        width: 413px;
+        display: inline-block;
+        vertical-align: top;
+        background-color: #c0c0c0;
+        margin:20px;
+    }
+        div.image img{
+            padding:5px;
+        }
+    div.about_txt{
+        width: 486px;
+        padding: 0 0 23px 0;
+        display: inline-block;
+        margin: 20px 0 0 3px;
+        background-image: linear-gradient(to right, white, #d9cbda);
+    }
+        div.aboutbanner{
+            background-image: linear-gradient(#b3b3b6,#888595,#b3b3b6);
+            height: 43px;
+        }
+            div.aboutbanner h1{
+                margin: 0px;
+                color: white;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 10px 0 10px 10px
+            }
+        div.about_txt p{
+            margin-left: 10px;
+            font-family: arial;
+        }
+        div.about_txt a{
+            color:black;
+        }
+div.cards{
+    width: 970px;
+    height: 589px;
+}
+    div.card1{
+        height: 540px;
+        width: 287px;
+        background-image: linear-gradient(to right, white, #d9cbda);
+        display: inline-block;
+        margin: 25px 0 25px 25px;
+        vertical-align: top;
+    }
+        div.banner{
+            background-image: linear-gradient(#b3b3b6,#888595,#b3b3b6);
+            height: 45px;
+            width: 287px;
+            color: white;
+        }
+            div.banner h1{
+                height: 45px;
+                margin: 0px;
+                font-size: 20px;
+                font-family: "arial";
+                padding: 10px 0 10px 15px;
+            }
+        div.cardimage{
+            width: 287px;
+            background-color: springgreen;
+            height: 150px;
+        }
+        div.description1{
+            width: 287px;
+            height: 160px;
+            background-color: lightseagreen;
+            font-family: "arial";
+            font-size: 14px;
+            text-align: justify;
+            padding-top:1px;
+            background-image: linear-gradient(to right, white, #cbbbca)
+        }
+            div.description1 p{
+                color: black;
+                width: 265px;
+                margin-left: 11px;
+            }
+        div.technologies{
+            width: 287px;
+            height: 40px;
+            background-image: linear-gradient(#b3b3b6,#878594,#b3b3b6);
+        }
+            div.technologies h2{
+                color:white;
+                margin: 0px;
+                font-size: 17px;
+                font-family: "arial";
+                padding: 10px 0 10px 15px;
+            }
+        div.badgebox img{
+            margin:5px 2px 5px 7px;
+        }
+        div.button1 a{
+            color:white;
+            background-color: #467c5e;
+            border: 1px solid #244734;
+            text-decoration: none;
+            padding: 5px;
+            font-size: 13px;
+            font-family: "arial";
+            border-radius: 10px;
+            margin: 0 0 0 105px;
+        }
+    div.card2{
+        height: 540px;
+        width: 287px;
+        background-image: linear-gradient(to right, white, #d9cbda);
+        display: inline-block;
+        margin: 25px 0 25px 25px;
+        vertical-align: top;
+    }
+        div.description2{
+            width: 287px;
+            height: 160px;
+            background-color: lightseagreen;
+            font-family: "arial";
+            font-size: 14px;
+            text-align: justify;
+            padding-top:1px;
+            background-image: linear-gradient(to right, white, #cbbbca)
+        }
+            div.description2 p{
+            color: black;
+            width: 265px;
+            margin-left: 11px;
+            }
+        div.button2 a{
+            color:white;
+            background-color: #467c5e;
+            border: 1px solid #244734;
+            text-decoration: none;
+            padding: 5px;
+            font-size: 13px;
+            font-family: "arial";
+            border-radius: 10px;
+            margin: 0 0 0 85px;
+        }
+    div.card3{
+        height: 540px;
+        width: 287px;
+        background-image: linear-gradient(to right, white, #d9cbda);
+        display: inline-block;
+        margin: 25px 0 25px 25px;
+        vertical-align: top;
+    }
+        div.description3{
+            width: 287px;
+            height: 160px;
+            background-color: lightseagreen;
+            font-family: "arial";
+            font-size: 14px;
+            text-align: justify;
+            padding-top:1px;
+            background-image: linear-gradient(to right, white, #cbbbca)
+        }
+            div.description3 p{
+            color: black;
+            width: 265px;
+            margin-left: 11px;
+            }
+        div.button3 a{
+            color:white;
+            background-color: #467c5e;
+            border: 1px solid #244734;
+            text-decoration: none;
+            padding: 5px;
+            font-size: 13px;
+            font-family: "arial";
+            border-radius: 10px;
+            margin: 0 0 0 100px;
+        }
+div.bottom{
+    background-color: #f9f9f9;
+    height: 65px;
+    display: inline
+}
+    div.contactinfo{
+        text-align: center;
+        height: 30px;
+        font-family: "arial";
+    }
+        div.contactinfo p{
+            margin:5px 0 0 0;
+        }
+    div.socialmedia{
+        text-align: center;
+    }
+        div.socialmedia p{
+            margin: 0 0 5px 0;
+            color: black;
+            font-style: italic;
+            font-family: "arial";
+        }            
